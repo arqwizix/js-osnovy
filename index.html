@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Основи JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Практична робота. Основи JavaScript</h1>
+
+  <h2>Завдання 1. Порівняння рядків</h2>
+  <p>Знайти рядок, у якому більше заданих літер.</p>
+  <form id="strings-form">
+    <label for="first-row">Перший рядок:</label>
+    <input type="text" id="first-row" value="Slow and steady wins the race">
+
+    <label for="second-row">Другий рядок:</label>
+    <input type="text" id="second-row" value="You can say that again">
+
+    <label for="letter">Літера:</label>
+    <input type="text" id="letter" value="a" maxlength="1" class="letter-input">
+
+    <div class="buttons">
+      <button type="submit">Порівняти</button>
+      <button type="button" id="strings-prompt">Через prompt()</button>
+    </div>
+  </form>
+  <div id="strings-result" class="result">
+    <p>Результат з’явиться тут.</p>
+  </div>
+
+  <h2>Завдання 2. Форматування телефону</h2>
+  <p>Ввести номер телефону та отримати його у правильному форматі.</p>
+  <form id="phone-form">
+    <label for="phone">Номер телефону:</label>
+    <input type="tel" id="phone" value="+380664567890">
+
+    <div class="buttons">
+      <button type="submit">Форматувати</button>
+      <button type="button" id="phone-prompt">Через prompt()</button>
+    </div>
+  </form>
+  <div id="phone-result" class="result">
+    <p>Результат з’явиться тут.</p>
+  </div>
+</body>
+</html>
